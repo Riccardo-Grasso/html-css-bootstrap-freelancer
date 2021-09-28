@@ -1,0 +1,26 @@
+
+/******************** MIE MODIFICHE ******************************/
+
+:root {
+    --bs-dark-rgb: 44,62,80;
+    --bs-success-rgb: 23, 186, 154;
+}
+
+/****************************************************************/
+
+.my-horizontal-bar {
+    height: 5px;
+    width: 50px;
+}
+
+.my-btn-primary {
+    color: #fff;
+    background-color: rgb(23, 186, 154);
+    border-color: rgb(23, 186, 154);
+}
+
+.my-btn-primary:hover {
+    color: #fff;
+    background-color: rgb(18, 155, 127);
+    border-color: rgb(17, 122, 101);
+}
