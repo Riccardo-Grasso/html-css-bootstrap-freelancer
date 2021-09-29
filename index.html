@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,22 +75,63 @@
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
                         <div class="col">
-                            <img src="img/cabin.png" class="img-fluid rounded" alt="cabin">
+                            <div class="card bg-dark text-white">
+                                <img src="img/cabin.png" class="card-img" alt="cabin">
+                                <div class="card-img-overlay d-flex flex-column justify-content-center">
+                                  <h5 class="card-title">Desperate House-wives</h5>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, fuga asperiores officiis repellat vero suscipit nostrum quod commodi minima ipsam alias, eveniet fugiat incidunt, dignissimos quas adipisci quo veritatis dolorem.</p>
+                                </div>
+                              </div>
                         </div>
+
                         <div class="col">
-                            <img src="img/cake.png" class="img-fluid rounded" alt="cake">
+                            <div class="card bg-dark text-white">
+                                <img src="img/cake.png" class="card-img" alt="cake">
+                                <div class="card-img-overlay d-flex flex-column justify-content-center">
+                                  <h5 class="card-title">Cake Party</h5>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, fuga asperiores officiis repellat vero suscipit nostrum quod commodi minima ipsam alias, eveniet fugiat incidunt, dignissimos quas adipisci quo veritatis dolorem.</p>
+                                </div>
+                              </div>
                         </div>
+
                         <div class="col">
-                            <img src="img/circus.png" class="img-fluid rounded" alt="circus">
+                            <div class="card bg-dark text-white">
+                                <img src="img/circus.png" class="card-img" alt="circus">
+                                <div class="card-img-overlay d-flex flex-column justify-content-center">
+                                  <h5 class="card-title">Circus Party</h5>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, fuga asperiores officiis repellat vero suscipit nostrum quod commodi minima ipsam alias, eveniet fugiat incidunt, dignissimos quas adipisci quo veritatis dolorem.</p>
+                                </div>
+                              </div>
                         </div>
+
                         <div class="col">
-                            <img src="img/game.png" class="img-fluid rounded" alt="game">
+                            <div class="card bg-dark text-white">
+                                <img src="img/game.png" class="card-img" alt="game">
+                                <div class="card-img-overlay d-flex flex-column justify-content-center">
+                                  <h5 class="card-title">Do you wanna play?</h5>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, fuga asperiores officiis repellat vero suscipit nostrum quod commodi minima ipsam alias, eveniet fugiat incidunt, dignissimos quas adipisci quo veritatis dolorem.</p>
+                                </div>
+                              </div>
                         </div>
+
                         <div class="col">
-                            <img src="img/safe.png" class="img-fluid rounded" alt="safe">
+                            <div class="card bg-dark text-white">
+                                <img src="img/safe.png" class="card-img" alt="safe">
+                                <div class="card-img-overlay d-flex flex-column justify-content-center">
+                                  <h5 class="card-title">Do you feel safe</h5>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, fuga asperiores officiis repellat vero suscipit nostrum quod commodi minima ipsam alias, eveniet fugiat incidunt, dignissimos quas adipisci quo veritatis dolorem.</p>
+                                </div>
+                              </div>
                         </div>
+
                         <div class="col">
-                            <img src="img/submarine.png" class="img-fluid rounded" alt="submarine">
+                            <div class="card bg-dark text-white">
+                                <img src="img/submarine.png" class="card-img" alt="submarine">
+                                <div class="card-img-overlay d-flex flex-column justify-content-center">
+                                  <h5 class="card-title">We are living in a yellow submarine</h5>
+                                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, fuga asperiores officiis repellat vero suscipit nostrum quod commodi minima ipsam alias, eveniet fugiat incidunt, dignissimos quas adipisci quo veritatis dolorem.</p>
+                                </div>
+                              </div>
                         </div>
 
                     </div>
@@ -139,32 +180,39 @@
                     <div class="hr-bar d-inline-block"></div>
                 </div>
 
-                <form class="text-start my-form">
+                <div class="row justify-content-center">
+                    <div class="col-8 ">
 
-                    <div class="mb-3">
-                        <label for="text" class="form-label fw-bold">Name</label>
-                        <input type="text" class="form-control border-0 border-bottom" id="text" placeholder="Mario Rossi">
+                        <form class="text-start my-form">
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="name">
+                                <label for="floatingInput" class="fw-bold">Name</label>
+                            </div>
+        
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput" class="fw-bold">Email Address</label>
+                            </div>
+        
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="phone">
+                                <label for="floatingInput" class="fw-bold">Phone Number</label>
+                            </div>
+        
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2" class="fw-bold">Message</label>
+                              </div>
+        
+                            <button type="button" class="btn btn-primary my-btn-primary">Send</button>
+        
+                        </form>
+
                     </div>
+                </div>
 
-                    <div class="mb-3">
-                        <label for="email" class="form-label fw-bold">Email Address</label>
-                        <input type="email" class="form-control border-0 border-bottom" id="email" placeholder="name@example.com">
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="phone" class="form-label fw-bold">Phone Number</label>
-                        <input type="text" class="form-control border-0 border-bottom" id="phone" placeholder="+39-1111111111">
-
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="Textarea" class="form-label fw-bold">Message</label>
-                        <textarea class="form-control border-0 border-bottom" id="Textarea" rows="4" placeholder="Your Message..."></textarea>
-                    </div>
-
-                    <button type="button" class="btn btn-primary my-btn-primary">Send</button>
-
-                </form>
+                
                 
             </div>
         </section>
