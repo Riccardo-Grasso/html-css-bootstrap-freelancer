@@ -85,6 +85,21 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+i.fab.fa-facebook-f:hover {
+    background-color: #4867AA;
+}
+
+i.fab.fa-google-plus-g:hover {
+    background-color: #D54836;
+}
+
+i.fab.fa-twitter:hover {
+    background-color: #00B6F1;
+}
+
+i.fab.fa-linkedin-in:hover {
+    background-color: #20547B;
+}
 .card:hover .card-img-overlay {
     opacity: 1;
 }
